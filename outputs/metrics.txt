@@ -1,0 +1,26 @@
+Selected model:           Random Forest - unweighted
+Decision threshold:       0.5267
+
+Accuracy:                  0.9808
+Majority baseline:         0.9350
+Balanced accuracy:         0.8591
+Illicit precision:         0.9799
+Illicit recall:            0.7193
+Illicit F1-score:          0.8296
+Macro F1-score:            0.9097
+Average precision:         0.7938
+ROC-AUC:                   0.9302
+
+Classification report:
+              precision    recall  f1-score   support
+
+       licit       0.98      1.00      0.99     15587
+     illicit       0.98      0.72      0.83      1083
+
+    accuracy                           0.98     16670
+   macro avg       0.98      0.86      0.91     16670
+weighted avg       0.98      0.98      0.98     16670
+
+Confusion matrix:
+[[15571    16]
+ [  304   779]]

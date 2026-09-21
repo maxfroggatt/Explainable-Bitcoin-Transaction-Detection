@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+
+# IDE files
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Downloaded dataset
+dataset/
+
+# Large generated model and test data
+outputs/*.joblib
+outputs/X_test.csv
+outputs/y_test.csv
+
+# Operating-system files
+.DS_Store
+Thumbs.db

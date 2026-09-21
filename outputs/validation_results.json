@@ -1,0 +1,74 @@
+[
+  {
+    "model": "Random Forest - unweighted",
+    "threshold": 0.5266666666666666,
+    "illicit_precision": 0.9964476021314387,
+    "illicit_recall": 0.949238578680203,
+    "illicit_f1": 0.9722703639514731,
+    "average_precision": 0.9880627678656948,
+    "roc_auc": 0.9953885628715469
+  },
+  {
+    "model": "Random Forest - weight 2",
+    "threshold": 0.4866666666666667,
+    "illicit_precision": 0.9826989619377162,
+    "illicit_recall": 0.961082910321489,
+    "illicit_f1": 0.9717707442258339,
+    "average_precision": 0.9890076389047301,
+    "roc_auc": 0.9962539854606689
+  },
+  {
+    "model": "Random Forest - weight 5",
+    "threshold": 0.495,
+    "illicit_precision": 0.9793459552495697,
+    "illicit_recall": 0.9627749576988156,
+    "illicit_f1": 0.9709897610921502,
+    "average_precision": 0.9903400169284955,
+    "roc_auc": 0.9973655135033719
+  },
+  {
+    "model": "Random Forest - balanced",
+    "threshold": 0.37,
+    "illicit_precision": 0.9793103448275862,
+    "illicit_recall": 0.961082910321489,
+    "illicit_f1": 0.9701110162254484,
+    "average_precision": 0.9902763767446339,
+    "roc_auc": 0.9972928400106086
+  },
+  {
+    "model": "Random Forest - balanced leaf 3",
+    "threshold": 0.5059840497067282,
+    "illicit_precision": 0.9843478260869565,
+    "illicit_recall": 0.9576988155668359,
+    "illicit_f1": 0.9708404802744426,
+    "average_precision": 0.9884013114873492,
+    "roc_auc": 0.9969118108612995
+  },
+  {
+    "model": "Extra Trees - balanced",
+    "threshold": 0.4166666666666667,
+    "illicit_precision": 0.9721254355400697,
+    "illicit_recall": 0.9441624365482234,
+    "illicit_f1": 0.9579399141630901,
+    "average_precision": 0.9801590258095848,
+    "roc_auc": 0.9944168806336433
+  },
+  {
+    "model": "Extra Trees - balanced leaf 3",
+    "threshold": 0.5080104713442725,
+    "illicit_precision": 0.9585492227979274,
+    "illicit_recall": 0.9390862944162437,
+    "illicit_f1": 0.9487179487179487,
+    "average_precision": 0.9750478073026061,
+    "roc_auc": 0.9938861614613915
+  },
+  {
+    "model": "Histogram Gradient Boosting",
+    "threshold": 0.7649641451653082,
+    "illicit_precision": 0.9809027777777778,
+    "illicit_recall": 0.9560067681895094,
+    "illicit_f1": 0.9682947729220224,
+    "average_precision": 0.9919888092113057,
+    "roc_auc": 0.998075744888824
+  }
+]

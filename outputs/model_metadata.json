@@ -1,0 +1,18 @@
+{
+  "selected_model": "Random Forest - unweighted",
+  "decision_threshold": 0.5266666666666666,
+  "train_time_steps": "1-29",
+  "validation_time_steps": "30-34",
+  "test_time_steps": "35-49",
+  "metrics": {
+    "accuracy": 0.9808038392321535,
+    "majority_baseline": 0.9350329934013197,
+    "balanced_accuracy": 0.8591358745873473,
+    "illicit_precision": 0.979874213836478,
+    "illicit_recall": 0.7192982456140351,
+    "illicit_f1": 0.8296059637912673,
+    "macro_f1": 0.9097174819274181,
+    "average_precision": 0.7938397543498993,
+    "roc_auc": 0.9301860092350321
+  }
+}
